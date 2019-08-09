@@ -1,0 +1,466 @@
+{
+    "RatCellNames": [
+        {
+            "First": 0,
+            "Second": "Cash Day"
+        },
+        {
+            "First": 1,
+            "Second": "Opportunity"
+        },
+        {
+            "First": 2,
+            "Second": "Market"
+        },
+        {
+            "First": 3,
+            "Second": "Doodle"
+        },
+        {
+            "First": 4,
+            "Second": "Charity"
+        },
+        {
+            "First": 5,
+            "Second": "Birth of a Child"
+        },
+        {
+            "First": 6,
+            "Second": "Fired!"
+        }
+    ],
+    "FastCircleCells": [
+		{
+            "cellType": 1,
+            "name": "Спасите лес",
+            "text": "Остановите гибель древних деревьев. Пожертвовав 1000 аков леса создайте заповедник. Место, где можно насладиться дикой природой",
+            "price": 250000,
+            "income": 0,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 0,
+            "name": "Сеть фамильных ресторанов",
+            "text": "",
+            "price": 300000,
+            "income": 14000,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 1,
+            "name": "Торговля на стадионе",
+            "text": "Лицензируйте 12 продавцов в частных палатках для торговли продуктами и напитками на стадионе вашей любимой команды.",
+            "price": 200000,
+            "income": 0,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 0,
+            "name": "Франчайзн кондитерский",
+            "text": "",
+            "price": 300000,
+            "income": 9500,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 1,
+            "name": "Древние Азиатские города",
+            "text": "Частный самолёт с гидом на борту доставит вас и 5 друзей в наиболее отдалённые места Азии, в места где прежде не ступала нога туриста.",
+            "price": 150000,
+            "income": 0,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 0,
+            "name": "Сеть магазинов быстрого обслуживания (3 магазина)",
+            "text": "",
+            "price": 120000,
+            "income": 5000,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 1,
+            "name": "Рынок акций для детей",
+            "text": "Деловая инвестиция в шкрлу для юных бизнесменов. Школа включает мини фондовую биржу, управляемую студентами.",
+            "price": 125000,
+            "income": 0,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 5,
+            "name": "Акция милосердия",
+            "text": "За 100000$ вы можете бросать 1, 2, или 3 кубика при каждом ходе.",
+            "price": 150000,
+            "income": 0,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 0,
+            "name": "Сервисные службы",
+            "text": "",
+            "price": 200000,
+            "income": 10000,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 1,
+            "name": "Парусная регата",
+            "text": "Вы и ваша команда летите в Австралию. Проведите неделю, соревнуясь с самыми быстрыми яхтами мира.",
+            "price": 150000,
+            "income": 0,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 0,
+            "name": "Производство автозапчастей",
+            "text": "",
+            "price": 150000,
+            "income": 5000,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 2,
+            "name": "",
+            "text": "",
+            "price": 0,
+            "income": 0,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 1,
+            "name": "Каннский кино Фестиваль",
+            "text": "Вечеринка со звёздами! Совершите поездку по Франции, плюс неделя в Каннах, рядом со знаменитостями и даже исполнителями лучших ролей.",
+            "price": 125000,
+            "income": 0,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 0,
+            "name": "Золотой прииск",
+            "text": "+25000$ ежемесячно, если выпадает 3 или более на одном кубике, иначе 0$",
+            "price": 150000,
+            "income": 25000,
+            "scoreThreshold": 3,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 1,
+            "name": "Частныя рыбацкая хижина на озере Штата Монтана",
+            "text": "Порыбачте в этой отдалённой хижине. Насладитесь 6 месяцами одиночества. В вашем распоряжении гидросамолёт.",
+            "price": 100000,
+            "income": 0,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 3,
+            "name": "Налоговая ревизия",
+            "text": "Заплатите ревизорам и юристам половину ваших наличных",
+            "price": 0,
+            "income": 0,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 50
+        },
+        {
+            "cellType": 1,
+            "name": "Парк, названный в вашу честь",
+            "text": "Разберите брошенный склад и постройте новый парк. Примите в дар полицейский участок для безопасности парка.",
+            "price": 225000,
+            "income": 0,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 0,
+            "name": "Франчайзн птицеводческий (2 местоположения)",
+            "text": "",
+            "price": 300000,
+            "income": 10000,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 1,
+            "name": "Баллотируйтесь в Мэры",
+            "text": "Ваше знание дела побуждает народ предложить вам стать мэром. Вы учавствуете в выборах и, конечно, выигрываете. Это начало вашего пути. Дело стоит того.",
+            "price": 125000,
+            "income": 0,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 0,
+            "name": "Салоны красоты (3 салона)",
+            "text": "",
+            "price": 250000,
+            "income": 10000,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 1,
+            "name": "Подарок вере...",
+            "text": "Ваша религиозная организация растёт. Новостройки необходимы. Вы жертвуете...",
+            "price": 175000,
+            "income": 0,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 0,
+            "name": "Авторемонтная мастерская",
+            "text": "",
+            "price": 150000,
+            "income": 6000,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 1,
+            "name": "Лыжные курорты в Швейцарских Альпах",
+            "text": "Доставка вертолётом, проживание в средневековом замке, катания на лыжах днём, игры в чарующих ночных клубах ночью",
+            "price": 150000,
+            "income": 0,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 0,
+            "name": "Российский нефтяной бизнес",
+            "text": "+75000$ ежемесячно, если выпадет 4 или более на одном кубике, в противном случае 0$",
+            "price": 300000,
+            "income": 75000,
+            "scoreThreshold": 4,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 1,
+            "name": "Обед с Президентом",
+            "text": "Закажите сол на 10 персон, чтобы отобедать с Президентом на праздничном балу, посещаемом сановниками со всего мира.",
+            "price": 100000,
+            "income": 0,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 0,
+            "name": "Магазины футболок (5 торговых точек)",
+            "text": "",
+            "price": 200000,
+            "income": 8000,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 1,
+            "name": "Исследовательский центр рака и СПИДа.",
+            "text": "Ваши деньги объединят лучших исследователей и докторов в одном месте, специализирующемся на лечении этих 2 болезней.",
+            "price": 225000,
+            "income": 0,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 2,
+            "name": "",
+            "text": "",
+            "price": 0,
+            "income": 0,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 1,
+            "name": "Семь чудес света",
+            "text": "На самолёте, теплоходе, велосипеде, верблюдах, каноэ, лимузине к семи чудесам света. Наслаждайтесь поездкой.",
+            "price": 200000,
+            "income": 0,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 4,
+            "name": "Компания по разработке ПО",
+            "text": "Покупайте 250000 акций по цене 0.1$. Если выпадет 6 на кубике, то цена акции станет 2$. Если выпадет меньше 6 - то ничего не получаете.",
+            "price": 25000,
+            "income": 500000,
+            "scoreThreshold": 6,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 1,
+            "name": "Спасите океанских млекопитающих",
+            "text": "Профинансируйте и примите участие в исследовательской экспедиции по защите морских животных, подвергнутых опасности",
+            "price": 125000,
+            "income": 0,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 3,
+            "name": "Развод!",
+            "text": "Вы теряете все ваши наличные",
+            "price": 0,
+            "income": 0,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 100
+        },
+        {
+            "cellType": 1,
+            "name": "Приобретите реактывный самолёт",
+            "text": "Имея свой личный самолёт, доступный вам в течении года, вы сможете позволить себе оказываться там, где только пожелаете.",
+            "price": 250000,
+            "income": 0,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 0,
+            "name": "60 жилых домов",
+            "text": "",
+            "price": 300000,
+            "income": 8000,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 1,
+            "name": "Кругосветный гольф тур",
+            "text": "Возьмите 3 друзей в первоклассный 5-звёздочный тур для игры на 50 лучших полях мира.",
+            "price": 150000,
+            "income": 0,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 0,
+            "name": "Франчайзн Пиццы (2 местоположения)",
+            "text": "",
+            "price": 225000,
+            "income": 7000,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 1,
+            "name": "Детская библиотека",
+            "text": "Расширьте библиотеку вашего города, посвященную молодым авторам и художникам. Частые посещения знаменитостей искусства поддерживают вашу работу.",
+            "price": 175000,
+            "income": 0,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 0,
+            "name": "200 мини хранилищ",
+            "text": "",
+            "price": 200000,
+            "income": 6000,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 1,
+            "name": "Южные моря, фантастические острова",
+            "text": "Балующие роскошью два месяца отдыха, успокаивающая тёплая вода, пустынные берега, романтические ночи.",
+            "price": 100000,
+            "income": 0,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 4,
+            "name": "Био-техническая компания",
+            "text": "Покупайте 500000 акций по цене 0.1$. Если выпадет 5 или 6 на кубике, то цена акции становится 1$. Если меньше 5, то вы ничего не получаете.",
+            "price": 50000,
+            "income": 500000,
+            "scoreThreshold": 5,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 1,
+            "name": "Капиталистический корпус мира",
+            "text": "Основать предпринимательские бизнес школы в странах 3-го мира. Преподаватели - деловые люди, передающие в дар свои знания и время.",
+            "price": 200000,
+            "income": 0,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 0,
+            "name": "Химчистка (2 отделения)",
+            "text": "",
+            "price": 100000,
+            "income": 3000,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 1,
+            "name": "Средиземномогский круиз на частной яхте",
+            "text": "Посетите тихие гавани Италии и Франции, а также скалистой Греции в течении месяца с 12 друзьями.",
+            "price": 100000,
+            "income": 0,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 2,
+            "name": "",
+            "text": "",
+            "price": 0,
+            "income": 0,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 1,
+            "name": "Городская мини-ферма",
+            "text": "Создайте реальную экосистему фермы, чтобы дети, живущие в городе, могли изучатьживотных и растения, а также учиться ухаживать за ними.",
+            "price": 150000,
+            "income": 0,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 4,
+            "name": "Съёмка рекламных роликов",
+            "text": "",
+            "price": 225000,
+            "income": 50000,
+            "scoreThreshold": 4,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 1,
+            "name": "Африканская фотоохота",
+            "text": "Возьмите 6 друзей на дикое сафари. Фотографируя наиболее экзотических животных мира, насладитесь 5-звёздочной роскошью вашей палатки.",
+            "price": 100000,
+            "income": 0,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 0
+        },
+        {
+            "cellType": 3,
+            "name": "Судебный процесс",
+            "text": "Заплатите адокату половину ваших наличных",
+            "price": 0,
+            "income": 0,
+            "scoreThreshold": 0,
+            "looseTheMoneyPercentage": 50
+        }
+    ]
+}
